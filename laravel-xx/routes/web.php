@@ -15,3 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('h/i','Home\IndexController@index');
+Route::get('h/index','Home\IndexController@index1');
+Route::get('h/i2','Home\IndexController@index2');
